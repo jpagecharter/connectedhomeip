@@ -160,13 +160,13 @@ tests:
           the previous step, to the DUT in any format supported by the DUT"
       verification:
           "DUT Commissioner: sudo ./examples/chip-tool/out/debug/chip-tool
-          pairing code 1234 10054912339 ... [1646273075122]
-          [54299:29491292] CHIP: [BLE] NewConnection [1646273075150]
-          [54299:29491292] CHIP: [BLE] CBManagerState: ON [1646273075152]
-          [54299:29491293] CHIP: [BLE] CBManagerState: RESETTING [1646273076351]
-          [54299:29491293] CHIP: [BLE] CBManagerState: ON Illegal instruction: 4
-          Device TH: ./out/all-clusters-app/chip-all-clusters-app ... DUT does
-          not commission the TH to the Matter network"
+          pairing code 1234 10054912339 ... [1646273075122] [54299:29491292]
+          CHIP: [BLE] NewConnection [1646273075150] [54299:29491292] CHIP: [BLE]
+          CBManagerState: ON [1646273075152] [54299:29491293] CHIP: [BLE]
+          CBManagerState: RESETTING [1646273076351] [54299:29491293] CHIP: [BLE]
+          CBManagerState: ON Illegal instruction: 4 Device TH:
+          ./out/all-clusters-app/chip-all-clusters-app ... DUT does not
+          commission the TH to the Matter network"
       disabled: true
 
     - label:
